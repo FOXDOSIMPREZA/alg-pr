@@ -22,7 +22,7 @@ if x >=0:
     print("2)z=",max)
 else:
     print("2)z=",min)
-    ##3
+##3
   x = int(input())
 y = int(input())
 if x>y:
