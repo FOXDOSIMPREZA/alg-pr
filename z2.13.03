@@ -1,0 +1,7 @@
+n=int(input())
+k=0
+a=[]
+while 4**k < n:
+    a.append(k)
+    k+=1
+print(max(a))
