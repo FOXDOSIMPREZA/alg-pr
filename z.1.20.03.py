@@ -1,0 +1,6 @@
+a=[0,1]
+n=int(input())
+for i in range(2,n+1):
+    f=a[i-2] + a[i-1]
+    a.append(f)
+    print(a)
